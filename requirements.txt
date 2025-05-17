@@ -1,0 +1,16 @@
+# Core dependencies
+python-docx==1.1.2  # For Word document processing
+boto3==1.38.18     # AWS SDK for Python (required for Bedrock)
+tqdm==4.66.2       # Progress bar for batch processing
+
+# AWS dependencies (required by boto3)
+botocore==1.38.18  # AWS SDK core functionality
+jmespath==1.0.1    # JSON query language for AWS responses
+python-dateutil==2.9.0.post0  # Date parsing for AWS responses
+s3transfer==0.12.0  # AWS S3 transfer utilities
+urllib3==1.26.20   # HTTP client for AWS requests
+
+# Document processing dependencies
+lxml==5.4.0        # XML processing for Word documents
+typing_extensions==4.13.2  # Type hints support
+six==1.17.0        # Python 2/3 compatibility utilities
